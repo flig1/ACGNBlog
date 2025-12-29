@@ -1,9 +1,9 @@
 name = "acg-blog"
-main = "_worker.js"
 compatibility_date = "2025-12-01"
 
-[site]
-bucket = "./dist"
+# Cloudflare Pages 配置
+# Pages 会自动处理静态资产，不需要手动配置 bucket
+# 构建输出目录默认为 dist，与 Astro 构建配置一致
 
 [env.production]
 name = "acg-blog-production"
