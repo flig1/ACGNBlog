@@ -1,9 +1,10 @@
 name = "acg-blog"
 compatibility_date = "2025-12-01"
 
-# Cloudflare Pages 配置
-# Pages 会自动处理静态资产，不需要手动配置 bucket
-# 构建输出目录默认为 dist，与 Astro 构建配置一致
+# Cloudflare Workers 资产配置
+# 根据错误提示，这是当前推荐的配置方式
+[assets]
+directory = "./dist"
 
 [env.production]
 name = "acg-blog-production"
