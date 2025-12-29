@@ -1,0 +1,9 @@
+name = "acg-blog"
+main = "_worker.js"
+compatibility_date = "2025-12-01"
+
+[site]
+bucket = "./dist"
+
+[env.production]
+name = "acg-blog-production"
