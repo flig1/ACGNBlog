@@ -18,6 +18,9 @@ export interface Project {
 	visitUrl?: string; // 添加前往项目链接字段
 }
 
+// 项目列表数据数组 - 存储网站展示的所有项目信息
+// 可以通过修改此数组来添加、删除或编辑项目内容，无需修改代码
+// 每个项目对象包含项目的详细信息，支持多种状态和分类
 export const projectsData: Project[] = [
 	{
 		id: "mizuki-blog",
@@ -138,3 +141,4 @@ export const getAllTechStack = () => {
 	});
 	return Array.from(techSet).sort();
 };
+

@@ -16,6 +16,8 @@ export type AnimeItem = {
 	endDate: string;
 };
 
+// 番剧列表数据数组 - 存储网站展示的所有番剧信息
+// 可以通过修改此数组来添加、删除或编辑番剧中的内容，无需修改代码
 const localAnimeList: AnimeItem[] = [
 	{
 		title: "Lycoris Recoil",
@@ -100,3 +102,4 @@ const localAnimeList: AnimeItem[] = [
 ];
 
 export default localAnimeList;
+
