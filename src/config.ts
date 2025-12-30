@@ -21,10 +21,10 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "一个演示网站",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	title: "pop木易的小窝",
+	subtitle: "欢迎观临pop木易的小窝",
+	siteURL: "http://lyzl.de5.net/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2025-12-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -50,7 +50,7 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "pop木易的小窝",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
@@ -136,14 +136,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "美しいミズキ", // 主页横幅主标题
+			title: "烟花易逝，人情长存", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"生活永远是，也仅仅是我们现在经历的这一刻",
+				"生命中真正重要的不是你遭遇了什么，而是你记住了哪些事，又是如何铭记的",
+				"天空是蔚蓝色，窗外有千纸鹤",
+				"有风的日子，总会想起你",
+				"我回来了，欢迎回来",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -335,8 +335,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Matsuzaka Yuki",
-	bio: "The world is big, you have to go and see",
+	name: "浮生若梦",
+	bio: "夏夜的星火，是转瞬即逝的浪漫",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -671,3 +671,4 @@ export const umamiConfig = {
 <script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
+
