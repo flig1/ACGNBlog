@@ -15,6 +15,9 @@ export type DeviceCategory = {
 	自定义?: Device[];
 };
 
+// 设备列表数据对象 - 按类别存储网站展示的所有设备信息
+// 可以通过修改此对象来添加、删除或编辑设备内容，无需修改代码
+// 每个类别下包含多个设备对象，支持自定义类别
 export const devicesData: DeviceCategory = {
 	OnePlus: [
 		{
@@ -37,3 +40,4 @@ export const devicesData: DeviceCategory = {
 		},
 	],
 };
+
